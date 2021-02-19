@@ -35,7 +35,6 @@ function printVotes(votes) {
   console.log('')
   for (const vote of votes) {
     console.log('  Vote:', `${BLUE}${formatVote(vote)}${RESET}`)
-    console.log('  Vote:', `${BLUE}${formatVote(vote.voter)}${RESET}`)
   }
   console.log('')
 }
